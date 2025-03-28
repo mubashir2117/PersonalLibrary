@@ -1,6 +1,8 @@
 import streamlit as st
 import json
 
+st.set_page_config(page_title="Unit Converter App", page_icon="🔄", layout="centered")
+
 LIBRARY_FILE = "library.json"
 
 # Load and Save Functions
